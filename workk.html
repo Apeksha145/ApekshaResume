@@ -1,0 +1,398 @@
+<html>
+	<head>
+	<title>Resume</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.css" rel="stylesheet">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<style>
+		body
+		{
+			background-color:#0a0e1991;
+			
+		}
+		#header{
+			background-color:#333a52de;
+			height:100px;
+			width:100%;
+		}
+		#pb
+		{
+		background-image:url('b1.jpg');
+		}
+		 .dot 
+		 {
+		height:17px;
+		width:23px;
+		background-color: white;
+		border-radius: 50%;
+		display: inline-block;
+		}
+		.circle{
+		
+		height:50px;
+		width:50px;
+		background-color: goldenrod;
+		border-radius: 50%;
+		display: inline-block;
+		margin-left:90px;
+		}
+		#menu  li,a
+		{
+			color:white;
+			margin-left:5px;
+			font-weight:bold;
+		}
+		#menu  li,a:hover
+		{
+			color:firebrick;
+			margin-left:10px;
+		}
+		#activemenu
+	{
+			color:firebrick;
+		}
+		#contct
+		{
+		background-color:#333a52de;
+		}
+		#port
+		{
+		background-color:#333a52de;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12"id="header">
+				<div class="row">
+					<div class="col-sm-3" >
+						<p style="color:white; margin-left:105px; font-weight:bold;">7985582046
+							<span class="dot"><i class="fa fa-phone fa-1x" style="color:black; margin-left:5px;margin-top:1px;"></i></span>
+						</p>
+						<p style="color:white; margin-left:105px; font-weight:bold;">7054930794
+						<span class="dot"><i class="fa fa-whatsapp fa-1x" style="color:black; margin-left:5px;margin-top:1px;"></i></span>
+					</p>
+					</div>
+				<div class="col-sm-6" >
+					<ul class="nav nav-pills" id="menu">
+						<li><a href="viewresume.html"  onclick="resumepage()">RESUME</a></li>
+						<li><a href="workk.html" id="activemenu">WORK</a></li>
+
+						<li><a href="#"data-toggle="modal" data-target="#profestional">PROFESSIONAL</a></li>
+						
+						<li><a href="#" data-toggle="modal" data-target="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+			<div class="modal-content" id="contct">
+				<div class="modal-header">
+					<a href="#" data-dismiss="modal" class="close" style="color:white;">&times;</a>
+					<h4 style="color:burlywood;font-weight:bold;"align="center">CONTACT</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-5">
+							<br>
+							<h4><i style="color:goldenrod">APEKSHA GAHOI</i></h4>
+							<p style="color:white;"><span class="glyphicon glyphicon-phone"> 7054930794</span></p>
+							<p style="color:white;"><span class="glyphicon glyphicon-home"> Banglore,karnatka</p>
+							<p style="color:white;"><span class="glyphicon glyphicon-envelope"> apeksha12gahoi@gmail</p>
+						</div>
+					<div class="col-sm-5 well">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="glyphicon glyphicon-user"></i>
+								</span>
+								<input type="text" class="form-control" placeholder="Name*" name="uname" id="name">
+							</div>
+						</div>
+						<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="glyphicon glyphicon-envelope"></i>
+									</span>
+									<input type="text" class="form-control" placeholder=" Email*" name="email" id="email">
+								</div>
+						</div>
+						<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="glyphicon glyphicon-comment"></i>
+									</span>
+									<textarea class="form-control" placeholder="Meassage" id="msg" ></textarea>
+								</div>
+						</div>
+												
+						<div class="row form-group text-center">
+							<button type="submit" class="btn btn-warning">Send</button>
+						</div>
+						<div class="col-sm-1"></div>
+					
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-danger" class="close" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="profestional" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content" id="port">
+				<div class="modal-header">
+					<h4 style="color:burlywood;font-weight:bold;" align="center">MY PROFESSIONAL KNOWLDEGE IN SOFTWARE</h4>
+					<a href="#" data-dismiss="modal" class="close" style="color:white;">&times;</a>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<p style="color:whitesmoke;">HTML</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="85%"
+								style="width:85%">
+								85%
+								</div>
+							</div>
+							<p style="color:whitesmoke;">CSS</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="80%"
+								style="width:80%">
+								80%
+								</div>
+							</div>
+							<p style="color:whitesmoke;">JAVASCRIPT</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="75%"
+								style="width:75%">
+								75%
+								</div>
+							</div>
+							<p style="color:whitesmoke;">Bootstrap</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="75%"
+								style="width:75%">
+								75%
+								</div>
+							</div>
+							<p style="color:whitesmoke;">HTML</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="80%"
+								style="width:80%">
+								80%
+								</div>
+							</div>
+							<p style="color:whitesmoke;">CSS3</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped active"
+								areia-valuemin="0" areia-valuemax="100" areia-valuenow="75%"
+								style="width:75%">
+								75%
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-danger" class="close" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="col-sm-3" >
+			<p style="margin-left:55;">
+				<span class="dot">
+				<i class="fa fa-envelope fa-1x" style="color:black; margin-left:5px;margin-top:1px;"></i>
+				</span>
+			<i style="color:white; font-weight:bold;">apeksha12gahoi@gmail.com</i>
+			</p>
+			<p style="margin-left:55;">
+				<span class="dot">
+				<i class="fa fa-map-marker fa-1x" style="color:black; margin-left:7px;margin-top:1px;"></i>
+				</span>
+			<i style="color:white; font-weight:bold;" align="center"> Bengaluru Karnataka</i>
+			</p>
+			</div>
+		</div>
+	</div>
+	</div>
+		
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/f2.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/axis.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/axis2.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/axis3.jpg" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/pucchu.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/wed.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/adda.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/adda1.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/11.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/12.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/26.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/27.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/5.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/6.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/30.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br><div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/31.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+			<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/32.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/13.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/34.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/35.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/36.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/37.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 well">
+				<img src="assets/images/workscreenshots/38.png" height="450" width="100%">
+			</div>
+			<div class="col-sm-2"></div>
+		</div><br>
+</div>
+	
+	
+</body>
+</html>
